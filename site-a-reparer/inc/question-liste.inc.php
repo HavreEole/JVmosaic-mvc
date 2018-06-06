@@ -7,7 +7,7 @@
     $resultat22 = $con->query($requete22);
 
   while($donnees22 = $resultat22->fetch()) { ?>
-      <p><?php echo $donnees22["question_pseudos"].' | '
+      <p><?php echo $donnees22["question_pseudo"].' | '
                    .$donnees22["question_texte"]; ?>
       </p><?php                     // Retour à la ligne à chaque enregistrement
   } ?>

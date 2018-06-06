@@ -5,8 +5,8 @@
      entete("NFA083 CF1 : Question Hébergement",1); /* pour le title et le h1 */ ?>
 
 <!-- CONNEXION A LA BDD ======================================================== --><?php
-     include("connexion.inc.php");
-     $con=connexion("cnamcp09_nfa083_2017"); /* nom de la BDD */ ?>
+     include("inc/connexion.inc.php");
+     $con=connexion("cnamcp09_nfa083cf1_2017"); /* nom de la BDD */ ?>
 
 <!-- SATISFACTION ============================================================== -->
   <section><?php include("inc/form-question.inc.php");
