@@ -1,0 +1,10 @@
+/* fichier cnam/nfa083/2017-cf1/css/style.css 20180525-PBO */
+  nav a{background-color:lightgrey; color:blue; border-radius:10px; 
+            text-decoration:none; padding:10px; margin:20px; }
+  a.actif{background-color:blue; color:white; font-weight:700; 
+            border-radius:10px; text-decoration:none; padding:10px; margin:20px;}
+  h1{color:blue; background-color:lightgrey; }
+  h2{color:blue; }
+  strong{display:inline-block; width:300px; vertical-align:top; }
+  img{width:50px; height:auto; }
+  footer{margin-top:50px; padding:20px; background-color:grey; }
